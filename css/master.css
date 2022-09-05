@@ -216,6 +216,7 @@ header .container ul li{
     .services .container .services-content .icons .col{
         margin-bottom: 35px;
 }
+}
 .services .container .services-content .text{
     flex-basis: 40%;
     position: relative;
