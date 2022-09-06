@@ -215,7 +215,7 @@ header .container ul li{
     }
     .services .container .services-content .icons .col{
         margin-bottom: 35px;
-}
+    }
 }
 .services .container .services-content .text{
     flex-basis: 40%;
@@ -469,18 +469,35 @@ header .container ul li{
     font-size: 30px;
     color: white;
 }
-.footer .container .foot{
-    width: 100%;
+.foot{
+    max-width: 100%;
     background-color: #040813;
     color: #fff;
     padding: 20px 50px;
-    display: block;
-    width: fit-content;
-    margin: 20px auto;
     font-size: 20px;
+    text-align: center;
 }
-.footer .container .foot span{
+.foot span{
 font-weight: bold;
 color:#0db1f0 ;
+}
+@media (max-width:600px) {
+    .footer .container .links ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .icons {
+        margin-left: -25px;
+    }
+    .foot{
+        width: 100%;
+    }
+    .foot p{
+        max-width: 100%;
+    }
+    .foot span{
+        font-weight: normal;
+    }
 }
 /* end footer */
